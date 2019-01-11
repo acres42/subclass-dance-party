@@ -5,11 +5,12 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url('df.jpg');
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addStarDancerButton, .addDancerButton, .addSnowDancerButton, .lineUpButton {
   padding:5px 12px;
   float:right;
 }
@@ -24,4 +25,23 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+
+/******************* star css here *************/
+.star-five {
+  border:0px;
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  background-image: url('star.png');
+}
+
+/******************* star css here *************/
+.snowflake {
+  border:0px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url('snowflake.png');
+
 }
