@@ -22,7 +22,7 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
+  border:10px solid blue;
   border-radius:10px;
   position:absolute;
 }
@@ -34,14 +34,18 @@ body, a:link, a:visited, a:active{
   width: 39px;
   height: 39px;
   background-image: url('star.png');
+  background-position: center;
+  background-size: cover;
 }
 
-/******************* star css here *************/
+/******************* snowflake css here *************/
 .snowflake {
   border:0px;
+  display: flex;
   position: absolute;
   width: 50px;
   height: 50px;
   background-image: url('snowflake.png');
-
+  background-position: center;
+  background-size: cover;
 }
